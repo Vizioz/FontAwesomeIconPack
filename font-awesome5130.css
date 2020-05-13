@@ -651,40 +651,40 @@ readers do not read off random characters that represent icons */
 .icon-fa-cat:before {
   content: "\f6be"; }
 
-.icon-fa-cc-amazon-pay:before {
+.icon-fa-b-cc-amazon-pay:before {
   content: "\f42d"; }
 
-.icon-fa-cc-amex:before {
+.icon-fa-b-cc-amex:before {
   content: "\f1f3"; }
 
-.icon-fa-cc-apple-pay:before {
+.icon-fa-b-cc-apple-pay:before {
   content: "\f416"; }
 
-.icon-fa-cc-diners-club:before {
+.icon-fa-b-cc-diners-club:before {
   content: "\f24c"; }
 
-.icon-fa-cc-discover:before {
+.icon-fa-b-cc-discover:before {
   content: "\f1f2"; }
 
-.icon-fa-cc-jcb:before {
+.icon-fa-b-cc-jcb:before {
   content: "\f24b"; }
 
-.icon-fa-cc-mastercard:before {
+.icon-fa-b-cc-mastercard:before {
   content: "\f1f1"; }
 
-.icon-fa-cc-paypal:before {
+.icon-fa-b-cc-paypal:before {
   content: "\f1f4"; }
 
-.icon-fa-cc-stripe:before {
+.icon-fa-b-cc-stripe:before {
   content: "\f1f5"; }
 
-.icon-fa-cc-visa:before {
+.icon-fa-b-cc-visa:before {
   content: "\f1f0"; }
 
-.icon-fa-centercode:before {
+.icon-fa-b-centercode:before {
   content: "\f380"; }
 
-.icon-fa-centos:before {
+.icon-fa-b-centos:before {
   content: "\f789"; }
 
 .icon-fa-certificate:before {
@@ -780,10 +780,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-child:before {
   content: "\f1ae"; }
 
-.icon-fa-chrome:before {
+.icon-fa-b-chrome:before {
   content: "\f268"; }
 
-.icon-fa-chromecast:before {
+.icon-fa-b-chromecast:before {
   content: "\f838"; }
 
 .icon-fa-church:before {
@@ -849,13 +849,13 @@ readers do not read off random characters that represent icons */
 .icon-fa-cloud-upload-alt:before {
   content: "\f382"; }
 
-.icon-fa-cloudscale:before {
+.icon-fa-b-cloudscale:before {
   content: "\f383"; }
 
-.icon-fa-cloudsmith:before {
+.icon-fa-b-cloudsmith:before {
   content: "\f384"; }
 
-.icon-fa-cloudversify:before {
+.icon-fa-b-cloudversify:before {
   content: "\f385"; }
 
 .icon-fa-cocktail:before {
@@ -867,10 +867,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-code-branch:before {
   content: "\f126"; }
 
-.icon-fa-codepen:before {
+.icon-fa-b-codepen:before {
   content: "\f1cb"; }
 
-.icon-fa-codiepie:before {
+.icon-fa-b-codiepie:before {
   content: "\f284"; }
 
 .icon-fa-coffee:before {
@@ -930,13 +930,13 @@ readers do not read off random characters that represent icons */
 .icon-fa-concierge-bell:before {
   content: "\f562"; }
 
-.icon-fa-confluence:before {
+.icon-fa-b-confluence:before {
   content: "\f78d"; }
 
-.icon-fa-connectdevelop:before {
+.icon-fa-b-connectdevelop:before {
   content: "\f20e"; }
 
-.icon-fa-contao:before {
+.icon-fa-b-contao:before {
   content: "\f26d"; }
 
 .icon-fa-cookie:before {
@@ -951,61 +951,61 @@ readers do not read off random characters that represent icons */
 .icon-fa-copyright:before {
   content: "\f1f9"; }
 
-.icon-fa-cotton-bureau:before {
+.icon-fa-b-cotton-bureau:before {
   content: "\f89e"; }
 
 .icon-fa-couch:before {
   content: "\f4b8"; }
 
-.icon-fa-cpanel:before {
+.icon-fa-b-cpanel:before {
   content: "\f388"; }
 
-.icon-fa-creative-commons:before {
+.icon-fa-b-creative-commons:before {
   content: "\f25e"; }
 
-.icon-fa-creative-commons-by:before {
+.icon-fa-b-creative-commons-by:before {
   content: "\f4e7"; }
 
-.icon-fa-creative-commons-nc:before {
+.icon-fa-b-creative-commons-nc:before {
   content: "\f4e8"; }
 
-.icon-fa-creative-commons-nc-eu:before {
+.icon-fa-b-creative-commons-nc-eu:before {
   content: "\f4e9"; }
 
-.icon-fa-creative-commons-nc-jp:before {
+.icon-fa-b-creative-commons-nc-jp:before {
   content: "\f4ea"; }
 
-.icon-fa-creative-commons-nd:before {
+.icon-fa-b-creative-commons-nd:before {
   content: "\f4eb"; }
 
-.icon-fa-creative-commons-pd:before {
+.icon-fa-b-creative-commons-pd:before {
   content: "\f4ec"; }
 
-.icon-fa-creative-commons-pd-alt:before {
+.icon-fa-b-creative-commons-pd-alt:before {
   content: "\f4ed"; }
 
-.icon-fa-creative-commons-remix:before {
+.icon-fa-b-creative-commons-remix:before {
   content: "\f4ee"; }
 
-.icon-fa-creative-commons-sa:before {
+.icon-fa-b-creative-commons-sa:before {
   content: "\f4ef"; }
 
-.icon-fa-creative-commons-sampling:before {
+.icon-fa-b-creative-commons-sampling:before {
   content: "\f4f0"; }
 
-.icon-fa-creative-commons-sampling-plus:before {
+.icon-fa-b-creative-commons-sampling-plus:before {
   content: "\f4f1"; }
 
-.icon-fa-creative-commons-share:before {
+.icon-fa-b-creative-commons-share:before {
   content: "\f4f2"; }
 
-.icon-fa-creative-commons-zero:before {
+.icon-fa-b-creative-commons-zero:before {
   content: "\f4f3"; }
 
 .icon-fa-credit-card:before {
   content: "\f09d"; }
 
-.icon-fa-critical-role:before {
+.icon-fa-b-critical-role:before {
   content: "\f6c9"; }
 
 .icon-fa-crop:before {
@@ -1029,10 +1029,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-crutch:before {
   content: "\f7f7"; }
 
-.icon-fa-css3:before {
+.icon-fa-b-css3:before {
   content: "\f13c"; }
 
-.icon-fa-css3-alt:before {
+.icon-fa-b-css3-alt:before {
   content: "\f38b"; }
 
 .icon-fa-cube:before {
@@ -1044,19 +1044,19 @@ readers do not read off random characters that represent icons */
 .icon-fa-cut:before {
   content: "\f0c4"; }
 
-.icon-fa-cuttlefish:before {
+.icon-fa-b-cuttlefish:before {
   content: "\f38c"; }
 
-.icon-fa-d-and-d:before {
+.icon-fa-b-d-and-d:before {
   content: "\f38d"; }
 
-.icon-fa-d-and-d-beyond:before {
+.icon-fa-b-d-and-d-beyond:before {
   content: "\f6ca"; }
 
 .icon-fa-dailymotion:before {
   content: "\f952"; }
 
-.icon-fa-dashcube:before {
+.icon-fa-b-dashcube:before {
   content: "\f210"; }
 
 .icon-fa-database:before {
@@ -1065,37 +1065,37 @@ readers do not read off random characters that represent icons */
 .icon-fa-deaf:before {
   content: "\f2a4"; }
 
-.icon-fa-delicious:before {
+.icon-fa-b-delicious:before {
   content: "\f1a5"; }
 
 .icon-fa-democrat:before {
   content: "\f747"; }
 
-.icon-fa-deploydog:before {
+.icon-fa-b-deploydog:before {
   content: "\f38e"; }
 
-.icon-fa-deskpro:before {
+.icon-fa-b-deskpro:before {
   content: "\f38f"; }
 
 .icon-fa-desktop:before {
   content: "\f108"; }
 
-.icon-fa-dev:before {
+.icon-fa-b-dev:before {
   content: "\f6cc"; }
 
-.icon-fa-deviantart:before {
+.icon-fa-b-deviantart:before {
   content: "\f1bd"; }
 
 .icon-fa-dharmachakra:before {
   content: "\f655"; }
 
-.icon-fa-dhl:before {
+.icon-fa-b-dhl:before {
   content: "\f790"; }
 
 .icon-fa-diagnoses:before {
   content: "\f470"; }
 
-.icon-fa-diaspora:before {
+.icon-fa-b-diaspora:before {
   content: "\f791"; }
 
 .icon-fa-dice:before {
@@ -1125,10 +1125,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-dice-two:before {
   content: "\f528"; }
 
-.icon-fa-digg:before {
+.icon-fa-b-digg:before {
   content: "\f1a6"; }
 
-.icon-fa-digital-ocean:before {
+.icon-fa-b-digital-ocean:before {
   content: "\f391"; }
 
 .icon-fa-digital-tachograph:before {
@@ -1137,10 +1137,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-directions:before {
   content: "\f5eb"; }
 
-.icon-fa-discord:before {
+.icon-fa-b-discord:before {
   content: "\f392"; }
 
-.icon-fa-discourse:before {
+.icon-fa-b-discourse:before {
   content: "\f393"; }
 
 .icon-fa-disease:before {
@@ -1155,10 +1155,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-dna:before {
   content: "\f471"; }
 
-.icon-fa-dochub:before {
+.icon-fa-b-dochub:before {
   content: "\f394"; }
 
-.icon-fa-docker:before {
+.icon-fa-b-docker:before {
   content: "\f395"; }
 
 .icon-fa-dog:before {
@@ -1191,7 +1191,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-download:before {
   content: "\f019"; }
 
-.icon-fa-draft2digital:before {
+.icon-fa-b-draft2digital:before {
   content: "\f396"; }
 
 .icon-fa-drafting-compass:before {
@@ -1203,13 +1203,13 @@ readers do not read off random characters that represent icons */
 .icon-fa-draw-polygon:before {
   content: "\f5ee"; }
 
-.icon-fa-dribbble:before {
+.icon-fa-b-dribbble:before {
   content: "\f17d"; }
 
-.icon-fa-dribbble-square:before {
+.icon-fa-b-dribbble-square:before {
   content: "\f397"; }
 
-.icon-fa-dropbox:before {
+.icon-fa-b-dropbox:before {
   content: "\f16b"; }
 
 .icon-fa-drum:before {
@@ -1221,7 +1221,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-drumstick-bite:before {
   content: "\f6d7"; }
 
-.icon-fa-drupal:before {
+.icon-fa-b-drupal:before {
   content: "\f1a9"; }
 
 .icon-fa-dumbbell:before {
@@ -1236,16 +1236,16 @@ readers do not read off random characters that represent icons */
 .icon-fa-dungeon:before {
   content: "\f6d9"; }
 
-.icon-fa-dyalog:before {
+.icon-fa-b-dyalog:before {
   content: "\f399"; }
 
-.icon-fa-earlybirds:before {
+.icon-fa-b-earlybirds:before {
   content: "\f39a"; }
 
-.icon-fa-ebay:before {
+.icon-fa-b-ebay:before {
   content: "\f4f4"; }
 
-.icon-fa-edge:before {
+.icon-fa-b-edge:before {
   content: "\f282"; }
 
 .icon-fa-edit:before {
@@ -1257,7 +1257,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-eject:before {
   content: "\f052"; }
 
-.icon-fa-elementor:before {
+.icon-fa-b-elementor:before {
   content: "\f430"; }
 
 .icon-fa-ellipsis-h:before {
@@ -1266,13 +1266,13 @@ readers do not read off random characters that represent icons */
 .icon-fa-ellipsis-v:before {
   content: "\f142"; }
 
-.icon-fa-ello:before {
+.icon-fa-b-ello:before {
   content: "\f5f1"; }
 
-.icon-fa-ember:before {
+.icon-fa-b-ember:before {
   content: "\f423"; }
 
-.icon-fa-empire:before {
+.icon-fa-b-empire:before {
   content: "\f1d1"; }
 
 .icon-fa-envelope:before {
@@ -1287,7 +1287,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-envelope-square:before {
   content: "\f199"; }
 
-.icon-fa-envira:before {
+.icon-fa-b-envira:before {
   content: "\f299"; }
 
 .icon-fa-equals:before {
@@ -1296,22 +1296,22 @@ readers do not read off random characters that represent icons */
 .icon-fa-eraser:before {
   content: "\f12d"; }
 
-.icon-fa-erlang:before {
+.icon-fa-b-erlang:before {
   content: "\f39d"; }
 
-.icon-fa-ethereum:before {
+.icon-fa-b-ethereum:before {
   content: "\f42e"; }
 
 .icon-fa-ethernet:before {
   content: "\f796"; }
 
-.icon-fa-etsy:before {
+.icon-fa-b-etsy:before {
   content: "\f2d7"; }
 
 .icon-fa-euro-sign:before {
   content: "\f153"; }
 
-.icon-fa-evernote:before {
+.icon-fa-b-evernote:before {
   content: "\f839"; }
 
 .icon-fa-exchange-alt:before {
@@ -1335,7 +1335,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-expand-arrows-alt:before {
   content: "\f31e"; }
 
-.icon-fa-expeditedssl:before {
+.icon-fa-b-expeditedssl:before {
   content: "\f23e"; }
 
 .icon-fa-external-link-alt:before {
@@ -1353,22 +1353,22 @@ readers do not read off random characters that represent icons */
 .icon-fa-eye-slash:before {
   content: "\f070"; }
 
-.icon-fa-facebook:before {
+.icon-fa-b-facebook:before {
   content: "\f09a"; }
 
-.icon-fa-facebook-f:before {
+.icon-fa-b-facebook-f:before {
   content: "\f39e"; }
 
-.icon-fa-facebook-messenger:before {
+.icon-fa-b-facebook-messenger:before {
   content: "\f39f"; }
 
-.icon-fa-facebook-square:before {
+.icon-fa-b-facebook-square:before {
   content: "\f082"; }
 
 .icon-fa-fan:before {
   content: "\f863"; }
 
-.icon-fa-fantasy-flight-games:before {
+.icon-fa-b-fantasy-flight-games:before {
   content: "\f6dc"; }
 
 .icon-fa-fast-backward:before {
@@ -1389,10 +1389,10 @@ readers do not read off random characters that represent icons */
 .icon-fa-feather-alt:before {
   content: "\f56b"; }
 
-.icon-fa-fedex:before {
+.icon-fa-b-fedex:before {
   content: "\f797"; }
 
-.icon-fa-fedora:before {
+.icon-fa-b-fedora:before {
   content: "\f798"; }
 
 .icon-fa-female:before {
@@ -1401,7 +1401,7 @@ readers do not read off random characters that represent icons */
 .icon-fa-fighter-jet:before {
   content: "\f0fb"; }
 
-.icon-fa-figma:before {
+.icon-fa-b-figma:before {
   content: "\f799"; }
 
 .icon-fa-file:before {
