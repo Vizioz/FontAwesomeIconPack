@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>font-awesome5130.css</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack</orgPath>
+      <orgName>font-awesome5130.css</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.eot</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.eot</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.svg</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.svg</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.ttf</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.ttf</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.woff</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.woff</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.woff2</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.woff2</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.eot</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.eot</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.svg</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.svg</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.ttf</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.ttf</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.woff</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.woff</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.woff2</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.woff2</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>FontAwesomeIconPack</name>
+      <version>5.13.0</version>
+      <iconUrl />
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://github.com/skttl</url>
+      <requirements type="strict">
+        <major>7</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Søren Kottal</name>
+      <website>http://github.com/skttl</website>
+    </author>
+    <readme><![CDATA[]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>
