@@ -21,23 +21,11 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    - name: Zip Release
-      uses: TheDoctor0/zip-release@v0.3.0
-      with:
-        # Filename for archive
-        filename: FontAwesomeIconPack.zip
-        # Base path for archive files
-        path: .
-        # Working directory before zipping
-        directory: source
-        # List of excluded files/directories
-        # exclusions: # optional, default is 
-
-    - name: Upload a Build Artifact
+      
+    - name: Upload the Umbraco Package File as an Artifact to GitHub
       uses: actions/upload-artifact@v2
       with:
         # Artifact name
-        name: Font Awesome Icon Pack - Umbraco Package File
+        name: FontAwesomeIconPack
         # A file, directory or wildcard pattern that describes what to upload
-        path: source/FontAwesomeIconPack.zip
+        path: source/*.*
