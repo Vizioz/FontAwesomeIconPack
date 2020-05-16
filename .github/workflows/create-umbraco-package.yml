@@ -40,4 +40,4 @@ jobs:
         # Artifact name
         name: Font Awesome Icon Pack - Umbraco Package File
         # A file, directory or wildcard pattern that describes what to upload
-        path: FontAwesomeIconPack.zip
+        path: source/FontAwesomeIconPack.zip
