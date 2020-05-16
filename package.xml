@@ -66,9 +66,9 @@
     <package>
       <name>FontAwesomeIconPack</name>
       <version>5.13.0</version>
-      <iconUrl />
-      <license url="http://opensource.org/licenses/MIT">MIT License</license>
-      <url>http://github.com/skttl</url>
+      <iconUrl>https://vizioz.github.io/FontAwesomeIconPack/fapng.png</iconUrl>
+      <license url="https://github.com/Vizioz/FontAwesomeIconPack/blob/master/LICENSE.md">MIT License</license>
+      <url>https://github.com/Vizioz/FontAwesomeIconPack</url>
       <requirements type="strict">
         <major>7</major>
         <minor>0</minor>
@@ -76,10 +76,10 @@
       </requirements>
     </package>
     <author>
-      <name>Søren Kottal</name>
-      <website>http://github.com/skttl</website>
+      <name>Chris Houston</name>
+      <website>https://github.com/Vizioz/FontAwesomeIconPack</website>
     </author>
-    <readme><![CDATA[]]></readme>
+    <readme><![CDATA[Where does this information go?]]></readme>
   </info>
   <DocumentTypes />
   <Templates />
