@@ -26,7 +26,7 @@ jobs:
       run: umbpack pack package.xml -v ${{ env.PKG_VERSION }}
 
     - name: Upload to Our Umbraco Package Repository
-      run: umbpack push -w v860,v850,v840,v830,v820,v810,v800,v715,v714,v713,v712,v711,v710,v709,v708,v707,v706,v705,v704,v703,v702,v701,v700 -k ${{ secrets.OUR_DEPLOY_KEY }} Font_Awesome_Icon_Pack_${{ env.PKG_VERSION }}.zip
+      run: umbpack push -w 	v860,v850,v840,v830,v820,v810,v800,v7150,v7140,v7130,v7120,v7110,v7100,v790,v780,v770,v760,v750,v740,v730,v720,v710,v700 -k ${{ secrets.OUR_DEPLOY_KEY }} Font_Awesome_Icon_Pack_${{ env.PKG_VERSION }}.zip
       
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
