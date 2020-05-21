@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-latest
  
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       name: Checkout Code
           
     - name: Setup .NET Core
@@ -24,9 +24,12 @@ jobs:
  
     - name: Create the Umbraco Package
       run: umbpack pack package.xml -v ${{ env.PKG_VERSION }}
+
+    - name: Upload to Our Umbraco Package Repository
+      run: umbpack push -w v860,v850,v840,v830,v820,v810,v800,v715,v714,v713,v712,v711,v710,v709,v708,v707,v706,v705,v704,v703,v702,v701,v700 -k ${{ secrets.OUR_DEPLOY_KEY }} Font_Awesome_Icon_Pack_${{ env.PKG_VERSION }}.zip
       
     - name: Upload Artifact
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v2
       with:
         name: FontAwesomeIconPack
         path: Font_Awesome_Icon_Pack_${{ env.PKG_VERSION }}.zip
