@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <umbPackage>
   <files>
-    <folder path="source" orgPath="App_Plugins/FontAwesomeIconPack" /> 
+    <file path="source/font-awesome.css" orgPath="App_Plugins/FontAwesomeIconPack/font-awesome.css" /> 
+    <file path="source/package.manifest" orgPath="App_Plugins/FontAwesomeIconPack/package.manifest" /> 
+
+    <file path="source/fa-solid-900.eot" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.eot" /> 
+    <file path="source/fa-solid-900.svg" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.svg" /> 
+    <file path="source/fa-solid-900.woff" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.woff" /> 
+    <file path="source/fa-solid-900.woff2" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.woff2" /> 
+    <file path="source/fa-solid-900.ttf" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.ttf" /> 
+
+    <file path="source/fa-brands-400.eot" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.eot" /> 
+    <file path="source/fa-brands-400.svg" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.svg" /> 
+    <file path="source/fa-brands-400.woff" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.woff" /> 
+    <file path="source/fa-brands-400.woff2" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.woff2" /> 
+    <file path="source/fa-brands-400.ttf" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.ttf" /> 
   </files>
   <info>
     <package>
