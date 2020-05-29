@@ -1,5 +1,5 @@
 ﻿{
     "css": [
-        '~/App_Plugins/FontAwesomeIconPack/font-awesome5130.css'
+        '~/App_Plugins/FontAwesomeIconPack/font-awesome.css'
     ]
 }
