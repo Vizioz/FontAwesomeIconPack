@@ -1,29 +1,75 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <umbPackage>
   <files>
-    <file path="source/font-awesome.css" orgPath="App_Plugins/FontAwesomeIconPack/font-awesome.css" /> 
-    <file path="source/package.manifest" orgPath="App_Plugins/FontAwesomeIconPack/package.manifest" /> 
-
-    <file path="source/fa-solid-900.eot" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.eot" /> 
-    <file path="source/fa-solid-900.svg" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.svg" /> 
-    <file path="source/fa-solid-900.woff" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.woff" /> 
-    <file path="source/fa-solid-900.woff2" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.woff2" /> 
-    <file path="source/fa-solid-900.ttf" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-solid-900.ttf" /> 
-
-    <file path="source/fa-brands-400.eot" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.eot" /> 
-    <file path="source/fa-brands-400.svg" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.svg" /> 
-    <file path="source/fa-brands-400.woff" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.woff" /> 
-    <file path="source/fa-brands-400.woff2" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.woff2" /> 
-    <file path="source/fa-brands-400.ttf" orgPath="App_Plugins/FontAwesomeIconPack/fonts/fa-brands-400.ttf" /> 
+    <file>
+      <guid>fa-brands-400.eot</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.eot</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.svg</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.svg</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.ttf</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.ttf</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.woff</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.woff</orgName>
+    </file>
+    <file>
+      <guid>fa-brands-400.woff2</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-brands-400.woff2</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.eot</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.eot</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.svg</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.svg</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.ttf</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.ttf</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.woff</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.woff</orgName>
+    </file>
+    <file>
+      <guid>fa-solid-900.woff2</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack/fonts</orgPath>
+      <orgName>fa-solid-900.woff2</orgName>
+    </file>
+    <file>
+      <guid>font-awesome.css</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack</orgPath>
+      <orgName>font-awesome.css</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>~/App_Plugins/FontAwesomeIconPack</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
   </files>
   <info>
     <package>
       <name>Font Awesome Icon Pack</name>
-      <version>5.13.0</version>
+      <version>5.15.1</version>
       <iconUrl>https://vizioz.github.io/FontAwesomeIconPack/fapng.png</iconUrl>
       <license url="https://github.com/Vizioz/FontAwesomeIconPack/blob/master/LICENSE.md">MIT License</license>
       <url>https://github.com/Vizioz/FontAwesomeIconPack</url>
-      <requirements type="strict">
+      <requirements type="Strict">
         <major>7</major>
         <minor>0</minor>
         <patch>0</patch>
@@ -33,9 +79,8 @@
       <name>Chris Houston, Miguel Lopez, Søren Kottal</name>
       <website>https://github.com/Vizioz/FontAwesomeIconPack</website>
     </author>
-    <readme><![CDATA[
-    This package adds the Open Source Font Awesome Icons to the back office of Umbraco. This allows you to use them where Umbraco currently uses icons, e.g. when creating a new document type that will be shown in the content tree.
-    ]]></readme>
+    <contributors></contributors>
+    <readme><![CDATA[This package adds the Open Source Font Awesome Icons to the back office of Umbraco. This allows you to use them where Umbraco currently uses icons, e.g. when creating a new document type that will be shown in the content tree.]]></readme>
   </info>
   <DocumentTypes />
   <Templates />
@@ -45,5 +90,4 @@
   <Languages />
   <DataTypes />
   <Actions />
-  <control />
 </umbPackage>
