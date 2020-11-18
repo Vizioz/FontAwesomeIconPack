@@ -1,7 +1,4 @@
 name: Publish Font Awesome Icon Pack to Our.Umbraco Package Repository
-
-env:
-  PKG_VERSION: 5.13.${{ github.run_number }}
   
 on:
   release:
@@ -15,6 +12,10 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
+      
+    - name: Set Version based on tag
+      shell: bash
+      run: echo ::set-env name=PKG_VERSION::$(basename $GITHUB_REF)
           
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
