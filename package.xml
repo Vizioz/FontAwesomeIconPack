@@ -19,7 +19,7 @@
   <info>
     <package>
       <name>Font Awesome Icon Pack</name>
-      <version>5.15.1</version>
+      <version>2.2.0</version>
       <iconUrl>https://vizioz.github.io/FontAwesomeIconPack/fapng.png</iconUrl>
       <license url="https://github.com/Vizioz/FontAwesomeIconPack/blob/master/LICENSE.md">MIT License</license>
       <url>https://github.com/Vizioz/FontAwesomeIconPack</url>
@@ -34,7 +34,7 @@
       <website>https://github.com/Vizioz/FontAwesomeIconPack</website>
     </author>
     <contributors></contributors>
-    <readme><![CDATA[This package adds the Open Source Font Awesome Icons to the back office of Umbraco. This allows you to use them where Umbraco currently uses icons, e.g. when creating a new document type that will be shown in the content tree.]]></readme>
+    <readme><![CDATA[This package adds the Open Source Font Awesome v5.15.1 Icons to the back office of Umbraco. It includes the COVID-19 free awareness icons. This allows you to use them where Umbraco currently uses icons, e.g. when creating a new document type that will be shown in the content tree.]]></readme>
   </info>
   <DocumentTypes />
   <Templates />
