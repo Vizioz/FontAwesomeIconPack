@@ -1,0 +1,70 @@
+name: Publish Font Awesome Icon Pack to NuGet Repository
+  
+on:
+  release:
+    types: [published]
+ 
+jobs:
+  nuget-release:
+
+    runs-on: windows-latest
+    
+    env:
+      # Stop wasting time caching packages
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+
+      # Disable sending usage data to Microsoft
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+      # Nuget Setup
+      NUGET_VERSION: 'latest'
+      NUGET_OUTPUT: output
+
+      # Official NuGet Feed settings
+      NUGET_FEED: https://api.nuget.org/v3/index.json
+      NUGET_KEY: ${{ secrets.NUGET_KEY }}
+
+    steps:
+      - name: Checkout commit
+        uses: actions/checkout@v2
+
+      - name: Set Version based on tag
+        shell: bash
+        run: echo ::set-env name=VERSION::$(basename $GITHUB_REF)
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@v1
+        with:
+          nuget-version: ${{ env.NUGET_VERSION }} 
+        
+      - name: NuGet Cache
+        uses: actions/cache@v2
+        id: cache
+        with:
+          path: |
+            ~/.nuget/packages
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            nuget-${{ runner.os }}
+            nuget-
+            nuget
+
+      - name: Pack all nuspec files
+        shell: bash
+        run: |
+          for nuspecFile in ./src/**/*.nuspec
+          do
+            nuget pack $nuspecFile -Version ${{ env.VERSION }} -Properties Configuration=${{ env.CONFIG }} -OutputDirectory .\${{ env.NUGET_OUTPUT }}
+          done
+
+      - name: Push to NuGet Feed
+        run: dotnet nuget push .\${{ env.NUGET_OUTPUT }}\*.nupkg --source ${{ env.NUGET_FEED }} --skip-duplicate --api-key ${{ env.NUGET_KEY }}
+      
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: FontAwesomeIconPack NuGet package
+          path: ${{ env.NUGET_OUTPUT }}\*.nupkg
