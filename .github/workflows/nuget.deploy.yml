@@ -23,14 +23,13 @@ jobs:
       # Official NuGet Feed settings
       NUGET_FEED: https://api.nuget.org/v3/index.json
       NUGET_KEY: ${{ secrets.NUGET_KEY }}
+      
+      # Package version
+      VERSION: $(basename $GITHUB_REF)
 
     steps:
       - name: Checkout commit
         uses: actions/checkout@v2
-
-      - name: Set Version based on tag
-        shell: bash
-        run: echo ::set-env name=VERSION::$(basename $GITHUB_REF)
 
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
