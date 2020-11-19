@@ -23,13 +23,13 @@ jobs:
       # Official NuGet Feed settings
       NUGET_FEED: https://api.nuget.org/v3/index.json
       NUGET_KEY: ${{ secrets.NUGET_KEY }}
-      
-      # Package version
-      VERSION: $(basename $GITHUB_REF)
 
     steps:
       - name: Checkout commit
         uses: actions/checkout@v2
+        
+      - name: Set Version based on tag
+        run: echo "PKG_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
@@ -54,9 +54,9 @@ jobs:
       - name: Pack all nuspec files
         shell: bash
         run: |
-          for nuspecFile in ./source/**/*.nuspec
+          for nuspecFile in ./*.nuspec
           do
-            nuget pack $nuspecFile -Version ${{ env.VERSION }} -OutputDirectory .\${{ env.NUGET_OUTPUT }}
+            nuget pack $nuspecFile -Version ${{ env.PKG_VERSION }} -OutputDirectory .\${{ env.NUGET_OUTPUT }}
           done
 
       - name: Push to NuGet Feed
