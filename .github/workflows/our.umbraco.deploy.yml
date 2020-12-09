@@ -13,8 +13,8 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v2
       
-    - name: Set Version based on tag
-      run: echo "PKG_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+    - name: Set version based on tag
+      run: echo "PKG_VERSION=$(basename $GITHUB_REF)" >> $GITHUB_ENV
           
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
